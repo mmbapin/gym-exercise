@@ -7,7 +7,7 @@ import LeftArrowIcon from "../assets/icons/left-arrow.png"
 
 
 const HorizontalScrollbar = ({data, bodyPart, setBodyPart}) => {
-  console.log(data);
+  // console.log(data);
   const LeftArrow = () => {
     const { scrollPrev } = useContext(VisibilityContext);
     return (
