@@ -7,7 +7,7 @@ import SearchExercises from '../components/SearchExercises'
 const Home = () => {
   const [bodyPart, setBodyPart] = useState('all')
   const [exercises, setExercises] = useState([])
-  console.log("Exercises from home:",exercises);
+  // console.log("Exercises from home:",exercises);
   return (
     <Box>
       <HeroBanner />
